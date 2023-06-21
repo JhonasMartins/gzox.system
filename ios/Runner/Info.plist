@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>GZOX SYSTEM</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GZOX SYSTEM</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.572461647457-g2pgcv25tushl9tpebi1hh5sp5684jqi</string>
+                
+            </array>
+        </dict>
+
+        <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>gzoxsystem.com</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+        <string>gzoxsystem</string>
+        </array>
+        </dict>
+    </array>
+    <key>FlutterDeepLinkingEnabled</key>
+    <true/>
+
+
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>O aplicativo GZOX SYSTEM requer permissão para obter sua localização, isso é necessário para que o aplicativo funcione corretamente.  Esta ação é necessária para que você consiga preencher seu endereço corretamente e para que o aplicativo encontrre as lojas mais próxima de você. Em caso de dúvida ou sugestão entre em contato com a Gzox Brasil.</string>
+	<key>NSCameraUsageDescription</key>
+    <string>O aplicativo GZOX SYSTEM requer permissão para acessar sua câmera ou galeria para inserir uma foto do veículou ou fachada da sua loja.  Isso é necessário para que o aplicativo funcione corretamente.  A foto inserida ficará armazenada no dispositivo e no nosso banco de dados, caso não queira mais que a foto continue exibida, basta solicitar a exclusão dos dados através do suporte.  Qualquer dúvida ou sugestão entre em contato com a Gzox Brasil.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>O aplicativo GZOX SYSTEM requer permissão para acessar sua câmera ou galeria para inserir uma foto do veículou ou fachada da sua loja.  Isso é necessário para que o aplicativo funcione corretamente.  A foto inserida ficará armazenada no dispositivo e no nosso banco de dados, caso não queira mais que a foto continue exibida, basta solicitar a exclusão dos dados através do suporte.  Qualquer dúvida ou sugestão entre em contato com a Gzox Brasil.</string>
+
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>remote-notification</string>
+    </array>
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>comgooglemaps</string>
+      <string>baidumap</string>
+      <string>iosamap</string>
+      <string>waze</string>
+      <string>yandexmaps</string>
+      <string>yandexnavi</string>
+      <string>citymapper</string>
+      <string>mapswithme</string>
+      <string>osmandmaps</string>
+      <string>dgis</string>
+      <string>qqmap</string>
+      <string>here-location</string>
+
+    </array>
+
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+
+</dict>
+</plist>
